@@ -13,9 +13,6 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-
 # Compiled Static libraries
 *.lai
 *.la
@@ -26,3 +23,13 @@
 *.exe
 *.out
 *.app
+
+# Vagrant Generated
+.vagrant/*
+
+# BiiCode Generated
+code/bii/*
+code/bin/*
+
+# SublimeText
+*.sublime-workspace
